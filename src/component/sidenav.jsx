@@ -20,12 +20,12 @@ const Sidenav = () => {
                         <AiOutlineHome size={20} />
                         <span className="pl-4">Home</span>
                     </a>
-                    <a href="#main" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
+                    <a href="#work" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
                         shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 ">
                         <GrProjects size={20} />
                         <span className="pl-4">Work</span>
                     </a>
-                    <a href="#main" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
+                    <a href="#projects" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
                         shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 ">
                         <AiOutlineProject size={20} />
                         <span className="pl-4">Project</span>
@@ -35,7 +35,7 @@ const Sidenav = () => {
                         <BsPerson size={20} />
                         <span className="pl-4">Resume</span>
                     </a>
-                    <a href="#main" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
+                    <a href="#contact" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
                         shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 ">
                         <AiOutlineMail size={20} />
                         <span className="pl-4">Contact</span>
@@ -45,27 +45,27 @@ const Sidenav = () => {
             : (
                 ''
             )}
-        <div className="md-block hidden fixed top-[25%] z-10 ">
-            <div className="flex flex-col">
+              <div className="md:block hidden fixed top-[25%] z-10 ">
+                <div className="flex flex-col">
                 <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
                 cursor-pointer hover:scale-100 ease-in duration-300">
                     <AiOutlineHome size={20} />
                 </a>
-                <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
+                <a href="#work" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
                 cursor-pointer hover:scale-100 ease-in duration-300">
-                    <AiOutlineHome size={20} />
+                    <GrProjects size={20} />
+                </a>
+                <a href="#projects" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
+                cursor-pointer hover:scale-100 ease-in duration-300">
+                    <AiOutlineProject size={20} />
                 </a>
                 <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
                 cursor-pointer hover:scale-100 ease-in duration-300">
-                    <AiOutlineHome size={20} />
+                    <BsPerson size={20} />
                 </a>
-                <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
+                <a href="#contact" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
                 cursor-pointer hover:scale-100 ease-in duration-300">
-                    <AiOutlineHome size={20} />
-                </a>
-                <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
-                cursor-pointer hover:scale-100 ease-in duration-300">
-                    <AiOutlineHome size={20} />
+                    <AiOutlineMail size={20} />
                 </a>
             </div>
         </div>
