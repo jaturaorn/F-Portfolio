@@ -1,6 +1,7 @@
 import Sidenav from "./component/sidenav";
 import Main from "./component/Main";
-import Work from "./component/Work"
+import Work from "./component/Work";
+import Project from "./component/Project";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
+      <Project />
     </>
   )
 }

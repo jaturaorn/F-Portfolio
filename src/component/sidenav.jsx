@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {AiOutlineMenu,AiOutlineHome,AiOutlineProject,AiOutlineMail} from "react-icons/ai";
+import {AiOutlineMenu,AiOutlineHome,AiOutlineProject,} from "react-icons/ai";
 import {GrProjects} from 'react-icons/gr';
 import {BsPerson} from 'react-icons/bs';
 
@@ -35,11 +35,6 @@ const Sidenav = () => {
                         <BsPerson size={20} />
                         <span className="pl-4">Resume</span>
                     </a>
-                    <a href="#contact" className="w-[75%] flex justify-center item-center round-full shadow-lg bg-gray-100
-                        shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 ">
-                        <AiOutlineMail size={20} />
-                        <span className="pl-4">Contact</span>
-                    </a>
                 </div>
             )
             : (
@@ -62,10 +57,6 @@ const Sidenav = () => {
                 <a href="#main" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
                 cursor-pointer hover:scale-100 ease-in duration-300">
                     <BsPerson size={20} />
-                </a>
-                <a href="#contact" className="round-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4
-                cursor-pointer hover:scale-100 ease-in duration-300">
-                    <AiOutlineMail size={20} />
                 </a>
             </div>
         </div>
