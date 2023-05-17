@@ -10,7 +10,8 @@ const ProjectItem = () => {
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
           </h3>
           <a href="/">
-            <p className="text-center p-3 rounded-ld bg-white text-gray-700 fond-bold cursor-pointer text-lg">More Info</p>
+            <p className="text-center p-3 rounded-ld bg-white text-gray-700 fond-bold 
+            cursor-pointer text-lg">More Info</p>
           </a>
       </div>
     </div>
