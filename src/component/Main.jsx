@@ -9,8 +9,8 @@ const Main = () => {
         <img className='w-full h-screen object-cover object-left' src={IMG} />
         <div className='w-full h-screen absolute top-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col 
-            justify-center lg:items-start items-center'>
-                <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I am Jaturaporn Sutongkeaw</h1>
+            justify-center lg:items-start items-start'>
+                <h1 className='sm:text-3.25xl text-4xl font-bold text-gray-800 text-center'>I am Jaturaporn Sutongkeaw</h1>
                 <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
                     I am_
                  <Typewriter
