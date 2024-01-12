@@ -9,6 +9,11 @@ const Work = () => {
         "at New Nimmitmai Church, served as a live broadcast system controller and camera operator, resulting in a 50% increase in data from users via social media Controlled image and camera systems at the church, resulting in a 40% increase in data from users via social media and in-person visitors",
     },
     {
+      year: "2023",
+      title: "Frontend-Developer",
+      detail: "at Energy Conversion and Management Co.Ltd",
+    },
+    {
       year: "March 2023",
       title: "Amity Hackathon March 2023",
       detail:
@@ -21,6 +26,7 @@ const Work = () => {
         "Training in online Bootcamp Junior Software Developer Program cohort 4 at Generation Thailand",
     },
   ];
+
   return (
     <div id="work" className="max-x-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">
