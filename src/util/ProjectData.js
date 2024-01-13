@@ -59,6 +59,16 @@ const projectData = [
     photoName: "/public/Images/Screenshot 2024-01-13 231506.png",
     link: "https://pizza-m-enu.vercel.app/",
   },
+  {
+    title: "eat-n-spilt",
+    photoName: "/public/Images/Screenshot 2024-01-13 231726.png",
+    link: "https://eat-n-spilt.vercel.app/",
+  },
+  {
+    title: "ecom-website",
+    photoName: "/public/Images/Screenshot 2024-01-13 232137.png",
+    link: "https://ecom-website-seven.vercel.app/",
+  },
 ];
 
 export default projectData;
