@@ -4,6 +4,9 @@ import ProjectItem from "./ProjectItem";
 import Drum from "../../public/Images/drum.jpg";
 import BGM from "../../public/Images/BGM.jpg";
 import TinDog from "../../public/Images/TinDog.png";
+import FYH from "../../public/Images/FindYourHat.jpg";
+import CA from "../../public/Images/ColmarAcademy.jpg";
+import CC from "../../public/Images/CountCharacther.jpg";
 
 // import projectData from "../util/ProjectData";
 
@@ -30,6 +33,25 @@ const Project = () => {
           link="https://fabulous-biscochitos-86b7e2.netlify.app/"
           description="Made with HTML & CSS(Bootstrap 5)"
         />
+        <ProjectItem
+          img={FYH}
+          title="Game-findYourHat"
+          link="https://replit.com/@JaturapornGoo/Jsdasset"
+          description="Made with javascript"
+        />
+        <ProjectItem
+          img={CA}
+          title="ColmarAcademy-Website"
+          link="https://coma-academy.netlify.app"
+          description="Made with HTML CSS pure"
+        />
+        <ProjectItem
+          img={CC}
+          title="Count-Characther-Project"
+          link="https://beamish-blancmange-f95b08.netlify.app"
+          description="Made with HTML CSS JavaScript"
+        />
+        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
