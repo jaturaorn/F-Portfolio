@@ -7,6 +7,10 @@ import TinDog from "../../public/Images/TinDog.png";
 import FYH from "../../public/Images/FindYourHat.jpg";
 import CA from "../../public/Images/ColmarAcademy.jpg";
 import CC from "../../public/Images/CountCharacther.jpg";
+import SPC from "../../public/Images/ShoppeeClone.png";
+import MEME from "../../public/Images/MEME.png";
+import Mondrian from "../../public/Images/mondrian.png";
+import SC from "../../public/Images/ShoppingCart.png";
 
 // import projectData from "../util/ProjectData";
 
@@ -47,11 +51,34 @@ const Project = () => {
         />
         <ProjectItem
           img={CC}
-          title="Count-Characther-Project"
+          title="Count-Characther"
           link="https://beamish-blancmange-f95b08.netlify.app"
           description="Made with HTML CSS JavaScript"
         />
-        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
+        <ProjectItem
+          img={SPC}
+          title="Shoppee-Clone"
+          link="work-clone-project.vercel.app"
+          description="Made with React(Next.js) CSS(tailwind)"
+        />
+        <ProjectItem
+          img={MEME}
+          title="MEME-Project"
+          link="https://meme-ws.vercel.app/"
+          description="Made with HTML CSS JavaScript"
+        />
+        <ProjectItem
+          img={Mondrian}
+          title="Mondrian-Project"
+          link="https://mondrian-project-alpha.vercel.app/"
+          description="Made with HTML CSS Pure"
+        />
+        <ProjectItem
+          img={SC}
+          title="Shopping-Cart"
+          link="https://shopping-cart-liart-mu.vercel.app/"
+          description="Made with react"
+        />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
         <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
