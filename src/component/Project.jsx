@@ -11,6 +11,10 @@ import SPC from "../../public/Images/ShoppeeClone.png";
 import MEME from "../../public/Images/MEME.png";
 import Mondrian from "../../public/Images/mondrian.png";
 import SC from "../../public/Images/ShoppingCart.png";
+import PM from "../../public/Images/PizzaMenu.png";
+import SB from "../../public/Images/Split-Bill.png";
+import TE from "../../public/Images/Tech_Ed.png";
+import Ecom from "../../public/Images/Ecom.png";
 
 // import projectData from "../util/ProjectData";
 
@@ -79,11 +83,30 @@ const Project = () => {
           link="https://shopping-cart-liart-mu.vercel.app/"
           description="Made with react"
         />
-        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
-        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
-        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
-        <ProjectItem img={BGM} title="BGM Web Clone" link="" description="" />
-
+        <ProjectItem
+          img={PM}
+          title="Pizza-Menu-Project"
+          link="https://pizza-m-enu.vercel.app/"
+          description="Made with React CSS"
+        />
+        <ProjectItem
+          img={SB}
+          title="Split-Bill-Project"
+          link="https://eat-n-spilt.vercel.app/"
+          description="Made with React CSS"
+        />
+        <ProjectItem
+          img={TE}
+          title="Education-Web"
+          link="https://freetime-project.vercel.app/"
+          description="Made with HTML CSS JavaScript"
+        />
+        <ProjectItem
+          img={Ecom}
+          title="Ecom-website-Project"
+          link="https://ecom-website-seven.vercel.app/"
+          description="Made with HTML CSS JavaScript"
+        />
         <ProjectItem
           img={Drum}
           title="Drum-kit-Project"
