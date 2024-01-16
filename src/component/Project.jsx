@@ -111,10 +111,10 @@ const Project = () => {
           description="Made with HTML CSS JavaScript"
         />
         <ProjectItem
-          img={Drum}
-          title="Drum-kit-Project"
-          link="https://drum-f-0c4a41.netlify.app/"
-          description="Made with HTML CSS and Javascript"
+          img={Steps}
+          title="Steps-Project"
+          link="https://steps-react-eight.vercel.app/"
+          description="Made with React CSS"
         />
         <ProjectItem
           img={Drum}
