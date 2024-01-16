@@ -122,6 +122,18 @@ const Project = () => {
           link="https://drum-f-0c4a41.netlify.app/"
           description="Made with HTML CSS and Javascript"
         />
+        <ProjectItem
+          img={CL}
+          title="Car-Land-Project"
+          link="https://learn-next-js-tau-ten.vercel.app/"
+          description="Made with React(Next.js) Tailwind"
+        />
+        <ProjectItem
+          img={Drum}
+          title="Drum-kit-Project"
+          link="https://drum-f-0c4a41.netlify.app/"
+          description="Made with HTML CSS and Javascript"
+        />
       </div>
     </div>
   );
