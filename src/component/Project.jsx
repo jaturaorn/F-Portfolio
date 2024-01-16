@@ -15,6 +15,9 @@ import PM from "../../public/Images/PizzaMenu.png";
 import SB from "../../public/Images/Split-Bill.png";
 import TE from "../../public/Images/Tech_Ed.png";
 import Ecom from "../../public/Images/Ecom.png";
+import Steps from "../../public/Images/Steps.png";
+import CL from "../../public/Images/CarLand.png";
+import TL from "../../public/Images/Travel-Lists.png";
 
 // import projectData from "../util/ProjectData";
 
@@ -106,6 +109,12 @@ const Project = () => {
           title="Ecom-website-Project"
           link="https://ecom-website-seven.vercel.app/"
           description="Made with HTML CSS JavaScript"
+        />
+        <ProjectItem
+          img={Drum}
+          title="Drum-kit-Project"
+          link="https://drum-f-0c4a41.netlify.app/"
+          description="Made with HTML CSS and Javascript"
         />
         <ProjectItem
           img={Drum}
