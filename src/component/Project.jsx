@@ -129,10 +129,10 @@ const Project = () => {
           description="Made with React(Next.js) Tailwind"
         />
         <ProjectItem
-          img={Drum}
-          title="Drum-kit-Project"
-          link="https://drum-f-0c4a41.netlify.app/"
-          description="Made with HTML CSS and Javascript"
+          img={TL}
+          title="Travel-lists-Project"
+          link="https://travel-list-react-green.vercel.app/"
+          description="Made with React CSS"
         />
       </div>
     </div>
