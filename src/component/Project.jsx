@@ -18,6 +18,7 @@ import Ecom from "../../public/Images/Ecom.png";
 import Steps from "../../public/Images/Steps.png";
 import CL from "../../public/Images/CarLand.png";
 import TL from "../../public/Images/Travel-Lists.png";
+import CT from "../../public/Images/Calculator.png";
 
 // import projectData from "../util/ProjectData";
 
@@ -133,6 +134,12 @@ const Project = () => {
           title="Travel-lists-Project"
           link="https://travel-list-react-green.vercel.app/"
           description="Made with React CSS"
+        />
+        <ProjectItem
+          img={CT}
+          title="Calculator"
+          link="https://calculator-js-five-eta.vercel.app/"
+          description="Made with HTML CSS and Javascript"
         />
       </div>
     </div>
